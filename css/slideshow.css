@@ -1,0 +1,35 @@
+#image{
+	position:relative; 
+}
+#image img {position:absolute;padding:10px 30px;height:300px;width:400px;}
+#thumbs{
+	display:none
+}
+.imgnav {
+	position:absolute; 
+	height:285px; 
+	width:50px;
+	z-index:100; 
+	outline:none; 
+	cursor:pointer;
+	visibility:hidden;
+}
+#previmg{
+	left:0; 
+	background:url(../images/arrow_right_off.png) left center no-repeat;
+}
+#previmg:hover{
+	opacity:1; 
+	filter:alpha(opacity=100);
+}
+#nextimg{
+	right:0; 
+	background:url(../images/arrow_left_off.png) right center no-repeat;
+}
+#nextimg:hover{
+	opacity:1; 
+	filter:alpha(opacity=100);
+}
+#image:hover .imgnav,#image.hover .imgnav{
+	visibility:visible
+}

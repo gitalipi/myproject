@@ -1,0 +1,68 @@
+/*--------------------	CSS	--------------------------------------------------------*/
+
+div,p,h1,h2,h3,h4,h5,h6{
+	margin:0px;
+	padding:0px;
+	text-align:left;
+}
+ul{
+	margin:0px 0px 0px 15px;
+	padding:0px;
+}
+li{
+	margin:3px 15px;
+	padding:2px;
+	list-style:square;
+}
+input,textarea,table{
+    border:1px solid #854A46;
+}
+h1{
+  font-size:29px;
+  font-weight:bold;
+  color:#772926;
+}
+h2{
+  font-size:20px;
+  font-weight: bold;
+  color:#c0aaaa;
+}
+h3{
+  font-size:15px;
+  font-weight:bold;
+  color:#0072bb;
+  margin:5px 0px;
+}
+h4{
+  font-size:13px;
+  font-weight:bold;
+  color:#0072bb;
+  margin:8px 0px 0px;
+}
+dl dt{padding:5px 0px;}
+dl dd{font-weight:bold;color:#0072bb;padding-bottom:6px;}
+p{
+  line-height:20px;
+  font-size:12px !important;
+  text-align:justify;
+  margin-top:9px;
+}
+p b, p.b, ul li b{color:#54749b;}
+p.Ita{font-style:italic;font-weight:bold;color:#54749b;font-size:13px;}
+p.text{color:#54749b;}
+p.note{color:#ed008f;font-size:11px !important;}
+
+a:link {
+  text-decoration: none;
+  color:#ed008f;
+  font-weight:bold;
+}
+a:visited ,a:hover {
+  text-decoration:underline;
+  color:#ed008f;
+}
+a:active {
+  color:#0072bb;
+}
+.clear{clear:both;}
+img{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(...);}
